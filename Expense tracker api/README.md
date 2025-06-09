@@ -38,6 +38,7 @@ A secure RESTful API that allows users to track their daily expenses, categorize
 | Method | Endpoint               | Description              |
 |--------|------------------------|--------------------------|
 | GET    | `/api/expenses`        | Get all your expenses    |
+| GET    | `/api/expenses/:id`    | Get an  expense          |
 | POST   | `/api/expenses`        | Add a new expense        |
 | PUT    | `/api/expenses/:id`    | Update an expense        |
 | DELETE | `/api/expenses/:id`    | Delete an expense        |
